@@ -1,0 +1,134 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #fff5f8, #fdfdfd);
+    color: #333;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+/* TÍTULO */
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #c2185b;
+    font-weight: bold;
+}
+
+/* CARD */
+.plano-card {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 35px rgba(194, 24, 91, 0.15);
+    text-align: center;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.plano-card:hover {
+    transform: translateY(-6px);
+}
+
+/* IMAGEM */
+.plano-card img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+/* DESCRIÇÃO */
+.descricao {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* DETALHES */
+.detalhes {
+    background: #fff0f5;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: left;
+}
+
+/* BOTÃO WHATSAPP */
+.btn-whatsapp {
+    display: block;
+    width: 100%;
+    background: #25D366;
+    color: white;
+    padding: 16px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+    background: #1ebe5d;
+}
+
+/* BOTÃO VER DETALHES */
+.btn-detalhes {
+    display: block;
+    width: 100%;
+    background: #c2185b;
+    color: white;
+    padding: 14px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.btn-detalhes:hover {
+    background: #a3154a;
+}
+
+/* MAIS VENDIDO */
+.mais-vendido {
+    border: 2px solid gold;
+    transform: scale(1.03);
+}
+
+.tag-popular {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    background: gold;
+    color: #000;
+    padding: 6px 14px;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* VOLTAR */
+.voltar {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+    color: #c2185b;
+}
+
+.voltar:hover {
+    color: #a3154a;
+}
